@@ -1,0 +1,35 @@
+/* Стилі для всієї секції ( колір фону CLOUD) */
+.team-section {
+  background-color: #f4f4fd; /* Світло-сірий колір фону */
+}
+
+/* Великий заголовок всієї секції (Our Team) */
+.team-section-title {
+  color: #2e2f42; /* Темно-синій Navy Blue */
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+
+/* Імена співробітників у картках */
+.team-item-title {
+  color: #2e2f42; /* Темно-синій Navy Blue */
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+/* Професії співробітників у картках */
+.team-item-text {
+  color: #434455; /* Сірий Slate */
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.team-item {
+  background-color: #ffffff;
+}
