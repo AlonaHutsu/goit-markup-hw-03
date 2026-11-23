@@ -5,15 +5,21 @@
 
 /* Великий заголовок всієї секції (Our Team) */
 .team-section-title {
+  margin-bottom: 72px;
   color: #2e2f42; /* Темно-синій Navy Blue */
   text-align: center;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
 }
+.team-list {
+  display: flex;
+  gap: 24px;
+}
 
 /* Імена співробітників у картках */
 .team-item-title {
+  margin-bottom: 8px;
   color: #2e2f42; /* Темно-синій Navy Blue */
   text-align: center;
   font-weight: 500;
@@ -31,5 +37,10 @@
   letter-spacing: 0.02em;
 }
 .team-item {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
   background-color: #ffffff;
+}
+.team-card-content {
+  padding: 32px 16px;
 }
